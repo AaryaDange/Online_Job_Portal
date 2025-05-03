@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+*{
+    margin: 0;
+    
+}
+.container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+body {
+   
+    background-color: #f6f5f8;
+    line-height: 1.6;
+    color: #f2f7f3;
+}
+
+header {
+    font-size: 30px;
+    background-color: #b4c75f;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #746f6f;
+    padding: 0.5rem 0;
+}
+
+/* nav li {
+    margin-right: 20px;
+} */
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #b4c75f;
+}
+#main{
+    display: flex;
+    font-size: 25px;
+    padding: 15px;
+    background-color: #ffffff;
+    height: 800px;
+}
+
+
+.rest {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: rgb(212, 206, 206);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgb(15, 15, 15);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    padding: 8px 8px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.t-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info h3 {
+    margin: 0 0 15px;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.meta p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}   
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A.D. Consultancy</h1>
+        <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Sign-in.html">Sign In</a></li>
+            <li><a href="jobPortal.html">View Jobs</a></li>
+            <li><a href="Home.html">About Us</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    </header>
+  
+
+    <section class="rest" id="rest">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Discover the most popular Job Profile in your area </p>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <img src="training.avif"
+                        alt="Training" class="t-img">
+                    <div class="info">
+                        <h3>Training</h3>
+
+                        <div class="meta">
+                            <p>
+                                Our training programs are designed to equip job seekers with the essential skills needed to succeed in today's competitive job market. 
+                                We offer a range of online courses, workshops, and certification programs led by industry experts. Whether you're looking to enhance your 
+                                technical abilities, improve your communication skills, or prepare for interviews, our flexible and practical training solutions are tailored 
+                                to help you achieve your career goals. Empower your future with learning that fits your schedule and accelerates your growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="webinar.avif"
+                        alt="Webinar" class="t-img">
+                    <div class="info">
+                        <h3>Webinars & Guest Lectures</h3>
+
+                        <div class="meta">
+                            <p>
+                                Stay ahead of industry trends with our expert-led webinars and guest lectures. We regularly host sessions with HR professionals, hiring managers, and industry leaders who share valuable insights on career growth, job market trends, and interview strategies. These live, interactive events offer a unique opportunity to learn directly from professionals and ask questions in real-time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="resume.avif"
+                        alt="Resume" class="t-img">
+                    <div class="info">
+                        <h3>Portfolio Building Support</h3>
+
+                        <div class="meta">
+                            <p>
+                                Showcase your skills and achievements with a professional portfolio that stands out. Our team provides guidance on creating impactful portfolios for fields like technology, design, writing, and freelancing. From choosing the right projects to presenting your work effectively, we help you build a portfolio that leaves a strong impression on recruiters and clients.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="apptitude.avif"
+                        alt="Aptitude" class="t-img">
+                    <div class="info">
+                        <h3>Aptitude Test Preparation</h3>
+
+                        <div class="meta">
+                            <p>
+                                Sharpen your problem-solving skills with our comprehensive aptitude test preparation resources. We offer practice tests, study materials, and expert tips to help you master quantitative aptitude, logical reasoning, and verbal ability. Whether you're preparing for campus placements or competitive exams, our training ensures you are test-ready and confident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        
+
+    
+</body>
+</html>
