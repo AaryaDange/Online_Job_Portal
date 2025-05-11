@@ -1,0 +1,153 @@
+:root {
+  --bg-dark: #100101;
+  /* --bg-light: #1e1e1e; */
+  --text-light: #f1f1f1;
+  --text-muted: #aaaaaa;
+  --primary: #e8e7f3;
+  /* Indigo */
+  --primary-hover: #4338ca;
+  --error-bg: #2f1e1e;
+  --error-text: #ff6b6b;
+  --border-color: #333;
+  --card-bg: #1a1a1a;
+}
+
+/* ===== Global Styles ===== */
+body {
+  background-color: rgb(0, 35, 34) !important;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Navbar ===== */
+.navbar,
+.navbar-dark {
+  /* background-color: var(--bg-dark) !important; */
+  background-color: rgb(73, 91, 86);
+  font-size: larger;
+}
+
+.navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--text-light) !important;
+}
+
+.navi {
+  font-size: 2rem;
+  /* Adjust as needed */
+  /* font-weight: bold; */
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--primary) !important;
+}
+
+/* ===== Auth Container ===== */
+.auth-container {
+  background-color: rgb(0, 35, 34);
+  /* backdrop-filter: blur(20px); */
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 5% auto;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== Headings ===== */
+.auth-container h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 25px;
+}
+
+/* ===== Form Elements ===== */
+.form-group,
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-row {
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  color: var(--text-muted);
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  background-color: rgb(73, 91, 86);
+  color: var(--text-light);
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+/* ===== Buttons ===== */
+button.btn {
+  background-color: var(--primary);
+  color: #140101;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: var(--success-hover);
+  color: rgb(99, 179, 157);
+  border: solid 2px rgb(104, 152, 138);
+}
+
+/* ===== Alert/Error Message ===== */
+.alert.error {
+  background-color: var(--error-bg);
+  color: var(--error-text);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+/* ===== Link Text (Switch Login/Signup) ===== */
+.auth-switch {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--text-muted);
+}
+
+.auth-switch span {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.auth-switch span:hover {
+  color: var(--primary-hover);
+}
+
+
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
