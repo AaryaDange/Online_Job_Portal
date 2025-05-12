@@ -45,7 +45,7 @@ Used HTML, CSS, JavaScript, and front-end frameworks (React, Bootstrap) for UI d
 </p>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aryadange25@gmail.com" target="_blank">aryadange25@gmail.com</a>
           <br></br>🔗<a href="https://www.linkedin.com/in/aarya-dange-6272b7231" target="_blank"> LinkedIn </a>
-          🔗<a href="https://www.linkedin.com/in/aarya-dange-6272b7231" target="_blank"> Github </a>
+          🔗<a href="https://github.com/AaryaDange" target="_blank"> Github </a>
           
         </div>
         <div className="info-card">

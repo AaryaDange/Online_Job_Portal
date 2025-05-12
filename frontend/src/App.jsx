@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Signin from './pages/Signin';
 import SignUp from './pages/SignUp';
 import Jobs from './pages/Jobs';
-import Dashboard from './pages/Dashboard';
+
 import Feedback from './pages/Feedback';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -42,7 +42,7 @@ function App() {
             <Route path="/signin" element={<Signin />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/jobs" element={<Jobs />} />
-            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+            
             <Route path="/contact" element={<Contact />} />
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/about" element={<About />} />
